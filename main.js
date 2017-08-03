@@ -22,6 +22,7 @@ $(document).ready(function(){
 					$('#author').text("Author: " + author);
 				}else{
 					$('#author').text("Author: Unknown");
+					author = 'Unknown';
 				}
 			}
 
