@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var quote = 'When nothing is going right, go left.';
-	var author = 'Anonymous';
+	var author = 'Unknown';
 	var i = 0;
 	var color = ['#ff4444', '#00b0ff', '#aa66cc', '#00C851'];
 	function getNewQuote(pickedColor){
