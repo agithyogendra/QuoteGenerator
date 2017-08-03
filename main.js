@@ -28,10 +28,6 @@ $(document).ready(function(){
 		});
 	};
 
-		
-
-
-
 	$('.getQuote').on('click', function(){
 		getNewQuote(color[i]);
 			i++;
@@ -39,6 +35,10 @@ $(document).ready(function(){
 			i = 0;
 		}
 
+	});
+	
+	$('.shareQuote').on('click', function(){
+		window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + " - " + author));
 	});
 
 });
