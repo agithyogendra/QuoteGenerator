@@ -1,5 +1,5 @@
 # QuoteGenerator
-Genrates a new quote accompanied by different color, which can be shared via twitter.
+Generates a new quote accompanied by different color, which can be shared via twitter.
 
 ### How to use
 * Click refresh button for a new quote
